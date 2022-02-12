@@ -9,10 +9,12 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
+    background-color: #1b2735;
 }
 
+
 header {
-   background-color: #36454f;
+   background-color: #1b2735;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -23,8 +25,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: black;
-    
+    color: rgb(0, 225, 255);
 }
 
 header nav ul {
@@ -40,7 +41,7 @@ header nav ul {
 header nav ul li a  {
     padding: 10px 15px;
     border-bottom: 3px solid transparent;
-    color: black;
+    color: white;
 }
 
 
@@ -58,3 +59,27 @@ header nav ul li a  {
     top: 525px;
     right: 100px;
 }
+
+aside {
+    flex: 1;
+    background-color: #1b2735;
+    padding: 40px;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
