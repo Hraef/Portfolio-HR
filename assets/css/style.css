@@ -47,25 +47,66 @@ header nav ul li a  {
 
 
 .hero {
-    height: 600px;
+    height: 100vh;
     background-image: url('../images/mclaren.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.hero h2 {
-    text-align: right;
+.text {
+    text-align: center;
     position: relative;
-    top: 525px;
-    right: 100px;
+    color: white;
+    top: 700px;
+    font-weight: bolder;
+    font-size: larger;
 }
 
-aside {
-    flex: 1;
-    background-color: #1b2735;
-    padding: 40px;
-    text-align: left;
+.color {
+    color: rgb(0, 225, 255);
 }
+
+.about {
+    height: 50vh;
+}
+.about-title h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+
+.about-title p {
+    text-align: center;
+    position: relative;
+    top: 75px;
+    color: white;
+}
+
+.work {
+    height: 50vh;
+}
+
+.projects h2 {
+    text-align: center;
+    position: relative;
+    top: 75px;
+    color: white;
+    text-decoration: underline;
+}
+.contact {
+    height: 50vh;
+}
+.contact-title {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: white;
+    text-decoration: underline;
+}
+
+
 
 
 @media screen and (max-width: 768px) {
