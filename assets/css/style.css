@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
   
-  }
+}
   
-  body {
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #1b2735;
-  }
+}
   
-  header {
+header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -22,99 +22,104 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-  }
+}
   
-  header h1 {
+header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
     color: rgb(0, 225, 255);
-  }
+}
   
-  header nav {
+header nav {
     margin: 7px 0;
-  }
+}
   
-  header nav ul {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     text-decoration: underline;
-  }
+}
   
-  header nav ul li a,
-  .socials ul li h3  {
+header nav ul li a,
+.socials ul li h3  {
      padding: 10px 15px;
      font-weight: lighter;
      font-size: 1.55vw;
      color: white;
-  }
-  
-  section {
+}
+
+header nav ul li a:hover {
+    color: white;
+    background: rgb(0, 225, 255);
+    box-shadow: 0 0 10px rgb(0, 225, 255), 0 0 40px rgb(0, 225, 255), 0 0 80px rgb(0, 225, 255);
+}
+section {
     padding: 60px;
-  }
+}
   
-  .hero {
+.hero {
     height: 1000px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-  }
+}
   
-  .text {
+.text {
     text-align: center;
     font-style: italic;
     font-size: xx-large;
-  }
+}
   
-  .color {
+.color {
     color: rgb(0, 225, 255);
-  }
+}
   
-  .about {
+.about {
     text-align: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     background-color: #1d1d1d;
-  }
+}
   
-  .flex-about div {
+.flex-about div {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
-  }
+}
   
-  .about-title h2,
-  .projects-title h2,
-  .contact h3 {
+.about-title h2,
+.projects-title h2,
+.contact h3 {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
     color: rgb(0, 225, 255);
-  }
+}
   
-  .flex-about img {
+.flex-about img {
     width: 30%;
-  }
+}
   
-  .flex-about p,
-  .projects p
-   {
+.flex-about p,
+.projects p
+{
     line-height: 1.7;
     color: whitesmoke;
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
     text-align: center;
-  }
+}
   
-  .projects {
+.projects {
     height: 50vh;
     text-align: center;
     display: flex;
@@ -122,67 +127,67 @@
     flex-wrap: wrap;
     align-items: center;
     background-color: #1b2735;
-  }
+}
   
   
-  .pre-work {
+.pre-work {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-  }
+}
   
-  .pre-work-title h3 {
+.pre-work-title h3 {
     color: white;
-  }
+}
   
-  .flex-work {
+.flex-work {
     margin: 20px;
     flex: 1;
-  } 
+} 
   
-  .flex-work img {
+.flex-work img {
     width: 50%;
-  }
+}
   
-  .pre-work-title h3 {
+.pre-work-title h3 {
     font-size: x-large;
-  }
+}
   
-  .contact {
+.contact {
     height: 15vh;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     background-color: #1d1d1d;
-  }
+}
   
   
-  .socials ul {
+.socials ul {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     text-decoration: none;
-  }
+}
   
-  footer {
+footer {
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     background-color: #1d1d1d;
-  }
+}
   
-  .footnote {
+.footnote {
     color: white;
-  }
+}
   
-  .highlight {
+.highlight {
     color: rgb(0, 225, 255);
-  }
-   
-  @media screen and (max-width: 980px) {
+}
+    
+@media screen and (max-width: 980px) {
     header {
       padding-bottom: 0;
       justify-content: center;
@@ -212,4 +217,4 @@
     .flex-work {
       flex: 0 70%;
     }
-  }
+}
