@@ -1,85 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>HarmonRaef</title>
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Harmon Raef</title>
     </head>
 
-<!--Body-->
     <body>
-
-        <!--header-->
-        <header>
-            <h1><span><</span>HR<span>/></span></h1>
+      <!--header-->
+      <header>
+        <h1>
+            <span><</span>HR<span>></span>
+        </h1>
 
         <!--nav-->
-            <nav>
-                <ul>
-                    <li><a href="About Me">About Me</a></li>
-                    <li><a href="Work">Work</a></li>
-                    <li><a href="Contact Me">Contact Me</a></li>
-                    <li><a href="Resume">Resume</a></li>
-                </ul>
-            </nav>
-        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#About-Me">About Me</a>
+                </li>
+                <li>
+                    <a href="#Work">Work</a>
+                </li>
+                <li>
+                    <a href="#Contact-Me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="https://docs.google.com/document/d/12_m-AwT34Tn2O5Bog6GLOBeUJ_yxN4qUVefLqUQT_Gc/edit?usp=sharing" target="_blank">Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-        <!--hero/jumbotron-->
-        <section class="hero">
-            <div class="stars"></div>
-            <div class="stars2"></div>
-            <div class="stars3"></div>
-            <!--subtitle in image-->
-            <div class="text">
-                <h2>Hello, I'm <span class="color">Harmon Raef</span>. 
-                <br>I'm a Fullstack Web Developer.</h2>
-            </div>
-        </section>
+    <!--start of top of page-->
+    <section class="hero">
+        <!--subtitle in image-->
+        <div class="text">
+            <h2>Hello, I'm <span class="color">Harmon Raef</span>. 
+            <br>I'm a Fullstack Web Developer.</h2>
+        </div>
+    </section>
 
-        <!--about-->
-        <section class="about">
-            <div class="about-title">
-                <h2><span><</span>About Me<span>/></span></h2>
-                <img src="./assets/images/pfp.jpg" alt="Profile Pic" />
-                <p>I'm a Full-Stack Developer based out in San Antonio, TX. I hold an active Secret Security Clearance with The DoD and serve in the US Army Reserves. Networking, Linux, cloud, coding and programming is what I do. I Currently hold a Sec + and Net + certifications. Lets work together!</p>
-            </div>
-        </section>
+    <!--about me section-->
+    <section id="About-Me" class="about">
+        <div class="about-title">
+            <h2>
+                <span><</span>About Me<span>></span>
+            </h2>
+        <div class="flex-about">
+            <img src="./assets/images/pfp.jpg" alt="Profile Pic" />
+            <p>I'm a Full-Stack Developer based out in San Antonio, TX. I hold an active Secret Security Clearance with The DoD and serve in the US Army Reserves. Networking, Linux, cloud, coding and programming is what I do. I Currently hold a Sec + and Net + certifications. Lets work together!</p>
+        </div>
+    </section>
 
-        <!--work-->
-        <div class="projects">
-            <h2><span><</span>Projects<span>/></span></h2>
-                <div class="project-box">
-                <div class="project-item-1">
-                    <p>Run Buddy application</p>
-                    <img src="./assets/images/run-buddy.jpg" alt="run Buddy application"/>
-                </div>
-                <div class="project-item-2">
-                    <p>Horiseon</p>
-                    <img src="./assets/images/Horiseon.jpg" alt="Horsieon"/>
-                </div>
-                </div>  
+    <!--start of projects section-->
+    <section id="Work" class="projects">
+        <div class="projects-title">
+            <h2>
+                <span><</span>Work<span>></span>
+            </h2>
         </div>
 
-        <!--contact-->
-        <section class="contact">
-            <div class="contact-title">
-                <h2><span><</span>Contact<span>/></span></h2>
-            </div>
-            <p>This is my Website, Hope you enjoyed it and I'm looking forward to hearing from you.</p>
-            <div class="email">
-                <p>harmonraef@gmail.com</p>
-            </div>
-        </section>
+        <!--projects section-->
+        <div class="pre-work">
+            <!--Run Buddy web page-->
+            <article class="flex-work">
+                <a href="https://hraef.github.io/run-buddy/" target="_blank">
+                    <img src="./assets/images/run-buddy.jpg" alt="Run Buddy application" />
+                </a>
+                <div class="pre-work-title">
+                    <h3>
+                      Run Buddy
+                    </h3>
+                </div>
+            </article>
+        </div> 
+    </section>
 
-        <!--footer-->
-        <footer>
-            <div class="footnote">Harmon Raef
-                <span class="highlight">@2022</span>
-            </div>
-            </div>
-        </footer>
-    </body>
+    <!--contact section-->
+    <section id="Contact-Me" class="contact">
+        <h3>
+            <span><</span>Contact<span>></span>
+        </h3>
+        <div class="socials">
+            <ul>
+                <li>
+                    <a href="https://github.com/Hraef" target="_blank">
+                        <h3>Github: Hraef</h3>
+                    </a>
+                </li>
+                <li>
+                    <h3>harmonraef@gmail.com</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-</html>
+    <!--footer-->
+    <footer>
+        <div class="footnote">Harmon Raef
+            <span class="highlight">@2022</span>
+        </div>
+    </footer>
+</body>
