@@ -1,15 +1,9 @@
-# Portfolio 
-
-## My display of skillset 
+# Resume
 
 ## Built With
 * HTML
 * CSS
 
-## Website
+This is just a basic html format of my most updated resume. I look forward to working with you!
 
-
-## Contribution
-Made by Harmon Raef
-
-### harmonraef@gmail.com
+## harmonraef@gmail.com
